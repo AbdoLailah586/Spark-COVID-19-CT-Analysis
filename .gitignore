@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.ipynb_checkpoints/
+*.png
+*.csv
+# I will keep the main dataset CSV because the user specifically wants to push the project, 
+# but usually large datasets are excluded. I'll include the main one as it's part of the submission.
+!corona_tested_006 (2).csv
+!train_val_data.csv
+!final_test_data.csv
